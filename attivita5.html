@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+<script type="text/javascript">
+function funzioneTabella()
+{
+   document.write("<table border='1'>");
+   document.write("<tr><th>NUMERO</th><th>QUADRATO</th></tr>");
+
+    var i;
+    var num;
+    for(i=0;i<26;i++){
+        var num=i*i;
+        
+    document.write("<tr><td>"+i+"</td><td>"+num+"</td></tr>");
+    };
+
+   document.write("</table>");
+   
+}
+
+</script>
+</head>
+<body>
+<form id="formDati" action="" method="" >
+<input type="button" value="Tabella" onclick="funzioneTabella()"/>
+</form>
+
+</body>
+</html>
